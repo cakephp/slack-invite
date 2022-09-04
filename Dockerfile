@@ -1,6 +1,6 @@
 FROM node:6.11.1-slim
 
-ENV PORT 9898
+ENV PORT 3000
 
 RUN apt-get update \
   && apt-get install -y git;
@@ -18,4 +18,4 @@ RUN cd /srv/www \
 
 CMD /srv/www/run.sh
 
-EXPOSE 9898
+EXPOSE 3000
