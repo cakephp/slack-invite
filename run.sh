@@ -11,4 +11,4 @@ if [ "$SLACK_API_TOKEN" == "" ]; then
     exit 1;
 fi
 
-slackin/bin/slackin --port $PORT $SLACK_SUBDOMAIN $SLACK_API_TOKEN x x
+slackin/bin/slackin --port $PORT $SLACK_SUBDOMAIN $SLACK_API_TOKEN
